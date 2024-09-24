@@ -29,7 +29,7 @@ const NavBar = () => {
           </Link>
         ))}
       </div>
-      <Button>Book Now</Button>
+      <Button className="bg-warm-terracotta hover:bg-warm-terracotta/80">Book Now</Button>
     </div>
   );
 };

@@ -35,7 +35,7 @@ const PackageCard = ({ name, duration, location, price, image, rating }) => {
               <span className="text-gray-500">({rating})</span>
             </div>
             <div className="flex flex-col text-right">
-              <span className="text-warm-terracotta font-bold text-2xl">
+              <span className="text-neutral-brown font-bold text-2xl">
                 ${price.toFixed(2).toLocaleString()}
               </span>
               <span className="text-muted-foreground">per person</span>
@@ -43,7 +43,7 @@ const PackageCard = ({ name, duration, location, price, image, rating }) => {
           </div>
         </div>
       ) : (
-        <div></div>
+        ""
       )}
     </>
   );

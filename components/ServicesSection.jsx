@@ -14,7 +14,7 @@ const ServicesSection = () => {
           At GEX - GH Explore Xperts, we specialize in crafting unique travel
           experiences that go beyond the ordinary. Our tours emphasize
           sustainability and responsible tourism, offering immersive cultural
-          journeys led by expert local guides. Whether you're exploring Ghana's
+          journeys led by expert local guides. Whether you&quot;re exploring Ghana&quot;s
           rich history, vibrant communities, or breathtaking natural landscapes,
           we ensure every adventure is meaningful and authentic
         </p>
