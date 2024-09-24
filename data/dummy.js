@@ -152,10 +152,163 @@ export const govOrgs = [
   },
 ];
 
-export const businessPartners = [
-  { name: "Fly Emirates", image: "/public/images/flyEmirates.svg" },
-  { name: "Trivago", image: "/public/images/trivago.svg" },
-  { name: "Airbnb", image: "/public/images/airbnb.svg" },
-  { name: "Turkish Airlines", image: "/public/images/turkishAirlines.svg" },
-  { name: "Swiss", image: "/public/images/swiss.svg" },
+export const packages = [
+  {
+    name: "Cape Coast Castle Tour",
+    slug: "cape-coast-castle-tour",
+    image: "/images/cape-coast-castle.jpg",
+    price: 75,
+    duration: "1 day",
+    location: "Cape Coast, Central Region",
+    featured: true,
+    rating: 4.3,
+    description:
+      "Explore the historic Cape Coast Castle, a UNESCO World Heritage Site that played a key role in the transatlantic slave trade. Learn about Ghana's history and culture on this guided tour.",
+  },
+  {
+    name: "Mole National Park Safari",
+    slug: "mole-national-park-safari",
+    image: "/images/mole-national-park.jpg",
+    price: 150,
+    duration: "2 days",
+    location: "Mole, Northern Region",
+    featured: true,
+    rating: 4.0,
+    description:
+      "Embark on a thrilling safari adventure in Mole National Park, home to elephants, antelopes, and over 300 bird species. Stay at the eco-friendly Zaina Lodge for an unforgettable experience.",
+  },
+  {
+    name: "Kakum National Park Canopy Walk",
+    slug: "kakum-national-park-canopy-walk",
+    image: "/images/kakum-national-park.jpg",
+    price: 50,
+    duration: "1 day",
+    location: "Cape Coast, Central Region",
+    featured: true,
+    rating: 4.3,
+    description:
+      "Experience the thrill of walking among the treetops on the Kakum Canopy Walkway, suspended 40 meters above the forest floor. Discover the diverse flora and fauna of Kakum National Park.",
+  },
+  {
+    name: "Wli Waterfalls Hike",
+    slug: "wli-waterfalls-hike",
+    image: "/images/wli-waterfalls.jpg",
+    price: 60,
+    duration: "1 day",
+    location: "Hohoe, Volta Region",
+    featured: true,
+    rating: 4.1,
+    description:
+      "Trek through lush forests to reach the majestic Wli Waterfalls, the highest waterfall in West Africa. Take a refreshing dip in the pool at the base of the falls and enjoy the scenic views.",
+  },
+  {
+    name: "Ada Estuary Boat Tour",
+    slug: "ada-estuary-boat-tour",
+    image: "/images/ada-estuary.jpg",
+    price: 40,
+    duration: "1 day",
+    location: "Ada Foah, Greater Accra Region",
+    featured: false,
+    rating: 3.8,
+    description:
+      "Cruise along the serene Volta River and explore the rich biodiversity of the Ada Estuary. Spot exotic bird species, monitor lizards, and mangrove forests on this relaxing boat tour.",
+  },
+  {
+    name: "Aburi Botanical Gardens",
+    slug: "aburi-botanical-gardens",
+    image: "/images/aburi-botanical-gardens.jpg",
+    price: 30,
+    duration: "1 day",
+    location: "Aburi, Eastern Region",
+    featured: false,
+    rating: 4.3,
+    description:
+      "Stroll through the lush Aburi Botanical Gardens, home to a diverse collection of tropical plants and flowers. Enjoy a picnic under the shade of giant trees and breathe in the fresh mountain air.",
+  },
+  {
+    name: "Kumasi Cultural Tour",
+    slug: "kumasi-cultural-tour",
+    image: "/images/kumasi-cultural-tour.jpg",
+    price: 80,
+    duration: "1 day",
+    location: "Kumasi, Ashanti Region",
+    featured: false,
+    rating: 4.0,
+    description:
+      "Discover the rich cultural heritage of Kumasi, the historic capital of the Ashanti Kingdom. Visit the Manhyia Palace, Kejetia Market, and the National Cultural Centre on this immersive tour.",
+  },
+  {
+    name: "Boti Falls Adventure",
+    slug: "boti-falls-adventure",
+    image: "/images/boti-falls.jpg",
+    price: 55,
+    duration: "1 day",
+    location: "Boti, Eastern Region",
+    featured: false,
+    rating: 4.1,
+    description:
+      "Embark on an exciting trek to Boti Falls, a twin waterfall nestled in the forested hills of the Eastern Region. Swim in the cool pool at the base of the falls and explore the surrounding area.",
+  },
+  {
+    name: "Cape Three Points Tour",
+    slug: "cape-three-points-tour",
+    image: "/images/cape-three-points.jpg",
+    price: 90,
+    duration: "1 day",
+    location: "Cape Three Points, Western Region",
+    featured: false,
+    rating: 3.9,
+    description:
+      "Journey to the southernmost tip of Ghana and visit Cape Three Points, where the Atlantic Ocean meets the Gulf of Guinea. Relax on pristine beaches and witness stunning sunsets on this coastal tour.",
+  },
+  {
+    name: "Tafi Atome Monkey Sanctuary",
+    slug: "tafi-atome-monkey-sanctuary",
+    image: "/images/tafi-atome-monkey-sanctuary.jpg",
+    price: 45,
+    duration: "1 day",
+    location: "Tafi Atome, Volta Region",
+    featured: false,
+    rating: 3.3,
+    description:
+      "Explore the Tafi Atome Monkey Sanctuary and observe the endangered Mona monkeys in their natural habitat. Learn about the conservation efforts to protect these primates and their forest home.",
+  },
+];
+
+export const services = [
+  {
+    name: "Cultural Tours",
+    slug: "cultural-tours",
+    image: "/images/cultural-tours.jpg",
+    description:
+      "Discover Ghana's rich history, traditions, and diverse cultures with our expert local guides.",
+  },
+  {
+    name: "Historical Explorations",
+    slug: "historical-tours",
+    image: "/images/eco-tours.jpg",
+    description:
+      "Walk through Ghana’s history with guided visits to significant landmarks, museums, and UNESCO World Heritage sites.",
+  },
+  {
+    name: "Adventure Tours",
+    slug: "adventure-tours",
+    image: "/images/adventure-tours.jpg",
+    description:
+      "Embark on thrilling adventures, from hiking to water sports, and discover Ghana's outdoor wonders.",
+  },
+  {
+    name: "Tailored Tours",
+    slug: "tailored-tours",
+    image: "/images/community-tours.jpg",
+    description:
+      "Personalized itineraries designed to match your interests, ensuring a unique and unforgettable journey.",
+  },
+  {
+    name: "Group and Private Tours",
+    slug: "group-private-tours",
+    image: "/images/group-private-tours.jpg",
+    description:
+      "Choose between group tours for a shared experience or private tours for a more personalized adventure.",
+  },
 ];
