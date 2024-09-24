@@ -1,14 +1,17 @@
 import FaqSection from "@/components/FaqSection";
 import HeroSection from "@/components/HeroSection";
+import PackagesSection from "@/components/PackagesSection";
 import PartnersSection from "@/components/Partners";
-import Image from "next/image";
+import ServicesSection from "@/components/ServicesSection";
 
 export default function Home() {
   return (
     <div className="">
       <HeroSection />
-      {/* <PartnersSection /> */}
-      {/* <FaqSection /> */}
+      <PartnersSection />
+      <ServicesSection />
+      <PackagesSection />
+      <FaqSection />
     </div>
   );
 }
