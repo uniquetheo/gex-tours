@@ -11,6 +11,7 @@ export default function Home() {
     <div className="">
       <HeroSection />
       <PartnersSection />
+      <div className="border-b" />
       <ServicesSection />
       <PackagesSection />
       <div className="container mx-auto py-10 grid md:grid-cols-[500px_1fr]">

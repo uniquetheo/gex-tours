@@ -2,7 +2,7 @@ import CtaForm from "./CtaForm";
 
 const CtaSection = () => {
   return (
-    <div className="max-w-3xl flex flex-col gap-10">
+    <div className="max-w-3xl flex flex-col gap-10 px-4 sm:px-8">
       <span className="text-balance text-6xl text-earthly-green font-bold">
         No matter where you are going to, we&apos;ll take you there
       </span>
