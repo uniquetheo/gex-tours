@@ -1,3 +1,4 @@
+import Link from "next/link";
 import {
   Accordion,
   AccordionContent,
@@ -6,10 +7,11 @@ import {
 } from "./ui/accordion";
 
 import { faqs } from "@/data/dummy";
+import { Button } from "./ui/button";
 
 const FaqSection = () => {
   return (
-    <div className="">
+    <div className="px-4">
       <h2 className="text-2xl font-bold">Frequently Asked Questions (FAQs)</h2>
       <Accordion type="single" collapsible className="w-full">
         {faqs.slice(0, 4).map((item, idx) => (
@@ -19,6 +21,11 @@ const FaqSection = () => {
           </AccordionItem>
         ))}
       </Accordion>
+      <Link href="/faq">
+        <Button variant="outline" className="mt-4">
+          Read More...
+        </Button>
+      </Link>
     </div>
   );
 };

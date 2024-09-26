@@ -137,6 +137,16 @@ export const travelTypes = [
   },
 ];
 
+export const travelDurations = [
+  { name: "1 hour", slug: "1-hour", value: 1 },
+  { name: "2 hours", slug: "2-hour", value: 2 },
+  { name: "4 hours", slug: "4-hour", value: 4 },
+  { name: "6 hours", slug: "6-hour", value: 6 },
+  { name: "1 day", slug: "1-day", value: 24 },
+  { name: "2 days", slug: "2-day", value: 48 },
+  { name: "3 days", slug: "3-day", value: 72 },
+];
+
 export const govOrgs = [
   { name: "Ghana Tourism Authority", image: "/images/gta-logo.png" },
   { name: "Ghana Wildlife Society", image: "/images/gws-logo.png" },

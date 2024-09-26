@@ -7,7 +7,7 @@ const PackageCard = ({ name, duration, location, price, image, rating }) => {
   return (
     <>
       {name ? (
-        <div className="flex flex-col bg-white rounded-md shadow w-[300px]">
+        <div className="flex flex-col bg-white rounded-md shadow w-full max-w-[350px]">
           <div className="flex flex-col p-2 h-full">
             <div className="w-full relative min-h-[150px]">
               <Image src={site1} alt="airbnb" fill className="object-cover" />

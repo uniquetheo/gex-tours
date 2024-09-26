@@ -10,9 +10,9 @@ import swiss from "../public/images/swiss.svg";
 const images = [flyEmirates, trivago, airbnb, turkishAirlines, swiss];
 const PartnersSection = () => {
   return (
-    <div className="flex w-full justify-between max-w-7xl py-8 mx-auto ">
+    <div className="container flex w-full justify-between gap-8 md:gap-12 px-4 md:px-8 py-8 mx-auto ">
       {images.map((partner, idx) => (
-        <div key={idx} className="flex justify-center items-center h-20">
+        <div key={idx} className="flex justify-center items-center lg:h-20">
           <Image
             src={images[idx]}
             alt={partner}

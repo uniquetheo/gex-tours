@@ -90,3 +90,10 @@ body {
     @apply bg-background text-foreground;
   }
 }
+
+.section-header {
+  color: #174ea6;
+  text-transform: uppercase;
+  font-weight: 700;
+  /* font-size: small; */
+}
