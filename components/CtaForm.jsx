@@ -36,7 +36,7 @@ const CtaForm = () => {
     <div>
       <form
         onSubmit={handleSubmit}
-        className="sm:flex p-4 gap-4 justify-between rounded bg-white/85 backdrop:blur"
+        className="sm:flex p-4 gap-4 justify-between rounded bg-white/85 dark:bg-slate-900/85 backdrop-blur"
       >
         <Input
           type="text"
@@ -72,7 +72,10 @@ const CtaForm = () => {
           </SelectContent>
         </Select>
 
-        <Button type="submit" className="my-3 ml-3 sm:m-0">
+        <Button
+          type="submit"
+          className="bg-warm-terracotta hover:bg-warm-terracotta/80 my-3 ml-3 sm:m-0"
+        >
           Submit
         </Button>
       </form>

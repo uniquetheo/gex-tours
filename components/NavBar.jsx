@@ -12,7 +12,7 @@ const NavBar = () => {
   const [menuOpen, setMenuOpen] = useState(false);
 
   const renderLogo = (
-    <Link href="/" className="w-[75px] lg:w-[100px]">
+    <Link href="/" className="w-[75px] lg:w-[100px] z-50">
       <Image
         src={logo}
         alt="GEX Travel and Tours"
@@ -30,7 +30,7 @@ const NavBar = () => {
   ));
 
   const menuToggleButton = (
-    <button className={`sm:hidden `} onClick={() => setMenuOpen(!menuOpen)}>
+    <button className={`sm:hidden z-40`} onClick={() => setMenuOpen(!menuOpen)}>
       {menuOpen ? (
         <FaTimes className="w-6 h-6 text-black" />
       ) : (
@@ -59,18 +59,13 @@ const NavBar = () => {
       </div>
       {bookButton}
       <div className="sm:hidden">{menuToggleButton}</div>
-      {menuOpen ? (
-        <div className="menu absolute top-0 left-0 rounded-2xl z-30 bg-white text-black w-screen py-8 ">
-          <div className="flex justify-between px-3">
-            {renderLogo}
-            {menuToggleButton}
-          </div>
+      {menuOpen && (
+        <div className="menu absolute top-0 left-0 rounded-2xl z-30 bg-white dark:bg-slate-900 backdrop-blur text-black dark:text-white w-screen py-8 ">
+          <div className="flex justify-end px-3">{menuToggleButton}</div>
           <div className="flex flex-col items-center justify-center gap-3">
             {renderMenu}
           </div>
         </div>
-      ) : (
-        ""
       )}
     </nav>
   );

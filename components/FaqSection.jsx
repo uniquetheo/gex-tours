@@ -12,8 +12,10 @@ import { Button } from "./ui/button";
 const FaqSection = () => {
   return (
     <div className="px-4">
-      <h2 className="text-2xl font-bold">Frequently Asked Questions (FAQs)</h2>
-      <Accordion type="single" collapsible className="w-full">
+      <h2 className="text-xl md:text-2xl font-bold">
+        Frequently Asked Questions (FAQs)
+      </h2>
+      <Accordion type="single" collapsible className="w-full text-left">
         {faqs.slice(0, 4).map((item, idx) => (
           <AccordionItem key={idx} value={`item-${idx + 1}`}>
             <AccordionTrigger>{item.question}</AccordionTrigger>
