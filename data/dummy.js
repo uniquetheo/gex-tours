@@ -322,3 +322,42 @@ export const services = [
       "Choose between group tours for a shared experience or private tours for a more personalized adventure.",
   },
 ];
+
+export const trips = [
+  {
+    name: "Cape Coast Legacy and Nature Tour",
+    description:
+      "Cape Coast Castle, Kakum National Park, Elmina Castle (with boat ride).",
+    isFeatured: true,
+  },
+  {
+    name: "Volta Serenity Experience",
+    description:
+      "Lake Volta, Volta River cruise 🚢, Adomi Bridge. Private dining at Volta Hotel Akosombo. (Optional)",
+    isFeatured: true,
+  },
+  {
+    name: "Savannah Cultural Safari",
+    description:
+      "Mole National Park (safari ride at Mole Park), Larabanga Mosque. Red clay studios, Shea butter making experience.",
+    isFeatured: true,
+  },
+  {
+    name: "Accra Experience: History, Art, and Flavor",
+    description:
+      "Jamestown, Kwame Nkrumah Mausoleum, Black Star Square, National Museum, Arts and Crafts Market, Drumming and Dancing, Local Food Tasting or cooking classes.",
+    isFeatured: true,
+  },
+  {
+    name: "Kumasi Heritage and Craft Tour",
+    description:
+      "Manhyia Palace, Prempeh II Jubilee Museum, Ntonso Adinkra Village, Adanwomase Cocoa and Kente Tour.",
+    isFeatured: true,
+  },
+  {
+    name: "Takoradi Coastal and Stilt Village Adventure",
+    description:
+      "Nzulezo Stilt Village, Busua Beach or Axim Beach, and Surfing lessons with the Justice Brothers.",
+    isFeatured: true,
+  },
+];

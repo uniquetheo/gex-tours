@@ -173,3 +173,58 @@ Follow Us on Social Media
 - Twitter: ghexplorexperts
 - WhatsApp: +233 20 111 3004
   Follow us for the latest updates, offers, and travel inspiration!
+
+  ***
+
+  [Logo at the Top Center]
+
+Headline: Discover Ghana with GEX.
+
+_Featured Trips_
+
+_Cape Coast Legacy and Nature Tour_
+Cape Coast Castle, Kakum National Park, Elmina Castle (with boat ride).
+
+_Volta Serenity Experience_:
+Lake Volta, Volta River cruise 🚢, Adomi Bridge. Private dining at Volta Hotel Akosombo. (Optional)
+
+_Savannah Cultural Safari_
+Mole National Park (safari ride at Mole Park), Larabanga Mosque. Red clay studios, Shea butter making experience.
+
+_Accra Experience: History, Art, and Flavor_
+Jamestown, Kwame Nkrumah Mausoleum, Black Star Square, National Museum, Arts and Crafts Market, Drumming and Dancing, Local Food Tasting or cooking classes.
+
+_Kumasi Heritage and Craft Tour_
+Manhyia Palace, Prempeh II Jubilee Museum, Ntonso Adinkra Village, Adanwomase Cocoa and Kente Tour.
+
+_Takoradi Coastal and Stilt Village Adventure_
+Nzulezo Stilt Village, Busua Beach or Axim Beach, and Surfing lessons with the Justice Brothers.
+
+ALL TOURS ARE ALWAYS AVAILABLE FOR BOOKING
+
+_Information Section_
+
+_Why Choose Us?_
+Personalised tours, expert local guides, and the best cultural and historical experiences in Ghana. Whether you want a private tour or group adventures, we’ve got you covered with tailored itineraries to fit your travel dreams.
+
+Discount available for groups of five or more people.
+
+_What’s Included in Our Packages:_
+All our packages include transportation, guided tours, entrance fees, and bottled water. Certain packages include meals and additional activities.
+
+_Terms & Conditions Apply_
+
+_Contact Us for Bookings_
+**Phone:** +233 20 111 3004
+**Email:** ghexplorexperts@gmail.com
+**Website:** ghexplorexperts.com
+
+QR code
+
+_Follow Us on Social Media_
+
+- _Instagram:_ ghexplorexperts
+- _Facebook:_ ghexplorexperts
+- _Twitter:_ ghexplorexperts
+- _WhatsApp:_ +233 20 111 3004
+  _Follow us for the latest updates, offers, and travel inspiration!_

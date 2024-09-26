@@ -1,5 +1,6 @@
 import ContactUs from "@/components/ContactUs";
 import FaqSection from "@/components/FaqSection";
+import FeaturedTrips from "@/components/FeaturedTripsSection";
 import HeroSection from "@/components/HeroSection";
 import Newsletter from "@/components/NewsLetter";
 import PackagesSection from "@/components/PackagesSection";
@@ -12,7 +13,8 @@ export default function Home() {
       <HeroSection />
       <PartnersSection />
       <div className="border-b" />
-      <ServicesSection />
+      <FeaturedTrips />
+      {/* <ServicesSection /> */}
       <PackagesSection />
       <div className="container mx-auto py-10 grid md:grid-cols-[500px_1fr]">
         <FaqSection />
