@@ -148,17 +148,16 @@ export const travelDurations = [
 ];
 
 export const govOrgs = [
-  { name: "Ghana Tourism Authority", image: "/images/gta-logo.png" },
-  { name: "Ghana Wildlife Society", image: "/images/gws-logo.png" },
+  { name: "Ghana Tourism Authority", image: "/images/ghana-tourism.jpeg" },
+  { name: "Ghana Wildlife Society", image: "/images/gws.png" },
   {
     name: "National Museum of Ghana",
-    image: "/images/national-museum-logo.png",
+    image: "/images/ghana-museum.jpeg",
   },
-  { name: "Ghana National Parks", image: "/images/national-parks-logo.png" },
-  { name: "Ghana Cultural Center", image: "/images/cultural-center-logo.png" },
+  { name: "Ghana Cultural Center", image: "/images/ghana-cultural-center.jpg" },
   {
     name: "Ghana Historical Society",
-    image: "/images/historical-society-logo.png",
+    image: "/images/historical-society-ghana.jpg",
   },
 ];
 

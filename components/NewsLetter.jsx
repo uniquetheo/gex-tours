@@ -18,7 +18,9 @@ const Newsletter = () => {
             Subscribe
           </Button>
         </div>
-        <p>We will send you weekly updates on promotions and hot tour news.</p>
+        <p className="leading-tight">
+          We will send you weekly updates on promotions and hot tour news.
+        </p>
       </div>
     </div>
   );

@@ -97,3 +97,7 @@ body {
   font-weight: 700;
   /* font-size: small; */
 }
+
+.partner-logo {
+  filter: grayscale(100%);
+}
