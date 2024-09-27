@@ -7,9 +7,11 @@ import logo from "/public/images/gex-logo-nobg.png";
 import Image from "next/image";
 import { useState } from "react";
 import { FaBars, FaTimes } from "react-icons/fa";
+import { usePathname } from "next/navigation";
 
 const NavBar = () => {
   const [menuOpen, setMenuOpen] = useState(false);
+  const pathname = usePathname();
 
   const renderLogo = (
     <Link href="/" className="w-[75px] lg:w-[100px] z-50">
@@ -24,7 +26,13 @@ const NavBar = () => {
   );
 
   const renderMenu = primaryMenu.map((item, idx) => (
-    <Link key={idx} href={item.link} className="hover:text-warm-terracotta">
+    <Link
+      key={idx}
+      href={item.link}
+      className={`hover:underline ${
+        pathname === item.link ? "text-warm-terracotta" : ""
+      }`}
+    >
       {item.name}
     </Link>
   ));
@@ -32,9 +40,9 @@ const NavBar = () => {
   const menuToggleButton = (
     <button className={`sm:hidden z-40`} onClick={() => setMenuOpen(!menuOpen)}>
       {menuOpen ? (
-        <FaTimes className="w-6 h-6 text-black" />
+        <FaTimes className="w-6 h-6 text-warm-terracotta" />
       ) : (
-        <FaBars className="w-6 h-6 text-black" />
+        <FaBars className="w-6 h-6 text-warm-terracotta" />
       )}
     </button>
   );
