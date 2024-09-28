@@ -100,17 +100,17 @@ export const primaryMenu = [
   {
     name: "About Us",
     slug: "about-us",
-    link: "/about-us",
+    link: "#about-us",
   },
   {
     name: "Services",
     slug: "services",
-    link: "/services",
+    link: "#services",
   },
   {
     name: "Packages",
     slug: "packages",
-    link: "/packages",
+    link: "#packages",
   },
 ];
 

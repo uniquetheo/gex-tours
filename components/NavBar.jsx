@@ -21,6 +21,7 @@ const NavBar = () => {
         width={100}
         height={50}
         className=""
+        prioritized
       />
     </Link>
   );
@@ -29,6 +30,8 @@ const NavBar = () => {
     <Link
       key={idx}
       href={item.link}
+      // href="#packages"
+      passHref
       className={`hover:underline ${
         pathname === item.link ? "text-warm-terracotta" : ""
       }`}

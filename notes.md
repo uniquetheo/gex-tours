@@ -56,7 +56,7 @@ Safety is a top priority. Our guides are trained in first aid, and we adhere to 
 
 ---
 
-GEX - GH EXPLORE XPERTS is a premier tour company revolutionising travel in Ghana. We curate diverse, immersive travel experiences, offering everything from rich cultural explorations and historical tours to exhilarating adventures and nature-themed getaways. Committed to sustainability and responsible tourism, we work closely with local communities to preserve Ghana’s cultural and natural heritage. Our accommodations range from quaint local lodges to luxurious resorts, ensuring comfort for every traveler, while our reliable transportation services provide safe, seamless journeys. At GEX, we strive to be Ghana’s leading tour company, renowned for creating unforgettable travel memories, promoting cultural preservation, and championing sustainable tourism practices.
+GEX - GH EXPLORE eXPERTS is a premier tour company revolutionizing travel in Ghana. We curate diverse, immersive travel experiences, offering everything from rich cultural explorations and historical tours to exhilarating adventures and nature-themed getaways. Committed to sustainability and responsible tourism, we work closely with local communities to preserve Ghana’s cultural and natural heritage. Our accommodations range from quaint local lodges to luxurious resorts, ensuring comfort for every traveler, while our reliable transportation services provide safe, seamless journeys. At GEX, we strive to be Ghana’s leading tour company, renowned for creating unforgettable travel memories, promoting cultural preservation, and championing sustainable tourism practices.
 
 OUTLINES
 I. Travel Plans:
