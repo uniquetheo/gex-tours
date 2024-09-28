@@ -30,10 +30,11 @@ const NavBar = () => {
     <Link
       key={idx}
       href={item.link}
+      onClick={() => setMenuOpen(false)}
       // href="#packages"
       passHref
       className={`hover:underline ${
-        pathname === item.link ? "text-warm-terracotta" : ""
+        pathname.includes(item.link) ? "text-warm-terracotta" : ""
       }`}
     >
       {item.name}

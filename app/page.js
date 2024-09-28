@@ -13,7 +13,7 @@ import WhyUs from "@/components/WhyUsSection";
 export default function Home() {
   return (
     <main className="">
-      <HeroSection />
+      <HeroSection id="hero" />
       <PartnersSection />
       <div className="border-b" />
       <FeaturedTrips id="services" />
