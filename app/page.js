@@ -7,6 +7,7 @@ import IncludedInPackage from "@/components/IncludedInPackage";
 import Newsletter from "@/components/NewsLetter";
 import PackagesSection from "@/components/PackagesSection";
 import PartnersSection from "@/components/Partners";
+import OutlineSection from "@/components/ServiceOutline";
 import ServicesSection from "@/components/ServicesSection";
 import WhyUs from "@/components/WhyUsSection";
 
@@ -16,11 +17,12 @@ export default function Home() {
       <HeroSection id="hero" />
       <PartnersSection />
       <div className="border-b" />
-      <FeaturedTrips id="services" />
+      <FeaturedTrips id="trips" />
+      <AboutSection id="about-us" />
+      <OutlineSection id="services" />
       <WhyUs />
       <PackagesSection id="packages" />
       <IncludedInPackage />
-      <AboutSection id="about-us" />
       <div className="container mx-auto py-10 grid md:grid-cols-[500px_1fr]">
         <FaqSection />
         <Newsletter />

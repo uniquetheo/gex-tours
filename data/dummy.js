@@ -360,3 +360,93 @@ export const trips = [
     isFeatured: true,
   },
 ];
+
+export const travelServicesOutline = [
+  {
+    title: "Travel Plans",
+    sections: [
+      {
+        title: "Cultural Immersion",
+        items: [
+          "Guided tours to historic sites and cultural landmarks.",
+          "Interactions with local artisans and communities.",
+          "Participation in traditional ceremonies and festivals.",
+        ],
+      },
+      {
+        title: "Historical Exploration",
+        items: [
+          "Visits to significant historical sites and museums.",
+          "Expert-led tours that delve into Ghana's rich history.",
+          "Immersive experiences in historical contexts.",
+        ],
+      },
+      {
+        title: "Adventure and Nature",
+        items: [
+          "Trekking and hiking adventures through lush rainforests.",
+          "Coastal exploration, including serene beaches and fishing villages.",
+          "Wildlife safaris and nature expeditions.",
+        ],
+      },
+      {
+        title: "Custom Tailored Plans",
+        items: [
+          "Customizable itineraries to cater to individual interests and preferences.",
+          "The flexibility to combine elements of cultural, historical, adventure, and nature-themed experiences.",
+        ],
+      },
+    ],
+  },
+  {
+    title: "Accommodation Services",
+    sections: [
+      {
+        title: "Local Lodges",
+        items: [
+          "Charming and authentic lodges, providing an immersive cultural experience.",
+          "Cozy and welcoming accommodations to connect with local communities.",
+        ],
+      },
+      {
+        title: "Luxury Resorts",
+        items: [
+          "High-end resorts offering comfort, luxury, and relaxation.",
+          "Stunning locations and top-notch amenities for a premium experience.",
+        ],
+      },
+      {
+        title: "Accommodation Customization",
+        items: [
+          "The ability to choose accommodations that match individual preferences and budgets.",
+          "A wide range of options to ensure a comfortable and enriching stay.",
+        ],
+      },
+    ],
+  },
+  {
+    title: "Transportation Services",
+    sections: [
+      {
+        title: "Safe and Reliable Vehicles",
+        items: [
+          "Modern and well-maintained transportation for hassle-free travel.",
+          "Professional drivers ensuring safety and comfort throughout the journey.",
+        ],
+      },
+      {
+        title: "Convenient Travel",
+        items: [
+          "Seamless transfers between destinations and activities.",
+          "Transportation solutions designed to optimize travel time and convenience.",
+        ],
+      },
+      {
+        title: "Tailored Transportation",
+        items: [
+          "Transportation options that match the nature of the travel plan, from comfortable coaches to off-road vehicles for adventure experiences.",
+        ],
+      },
+    ],
+  },
+];

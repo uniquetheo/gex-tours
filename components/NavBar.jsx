@@ -64,7 +64,7 @@ const NavBar = () => {
   );
 
   return (
-    <nav className="flex w-full items-center justify-between text-white px-4 sm:px-8">
+    <nav className="flex w-full items-center justify-between font-poppins text-lg  text-white px-4 sm:px-8">
       {renderLogo}
       <div className="menu hidden sm:flex md:w-[400px] justify-between gap-3">
         {renderMenu}

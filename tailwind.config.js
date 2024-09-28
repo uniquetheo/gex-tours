@@ -8,6 +8,11 @@ module.exports = {
   ],
   theme: {
     extend: {
+      fontFamily: {
+        poppins: ["Poppins", "sans-serif"],
+        lora: ["Lora", "serif"],
+        merriweather: ["Merriweather", "serif"],
+      },
       colors: {
         "earthly-green": "#006400",
         "warm-terracotta": "#E2725B",

@@ -7,7 +7,7 @@ const AboutSection = () => {
       className="container mx-auto pb-10 px-4 md:px-8 py-10"
     >
       <h1 className="section-header py-4">About Us</h1>
-      <p>
+      <p className="font-poppins">
         GEX - GH EXPLORE eXPERTS is a premier tour company revolutionizing
         travel in Ghana. We curate diverse, immersive travel experiences,
         offering everything from rich cultural explorations and historical tours
