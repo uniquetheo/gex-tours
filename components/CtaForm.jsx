@@ -15,7 +15,7 @@ import { travelTypes, travelDurations } from "@/data/dummy";
 
 const CtaForm = () => {
   const durationInput = (
-    <div className="flex px-3 gap-3 items-center">
+    <div className="flex px-3 gap-3 items-center text-black">
       <label htmlFor="duration">Duration</label>
       <Input
         type="number"
