@@ -4,7 +4,7 @@ import { packages } from "@/data/dummy";
 
 const PackagesSection = () => {
   return (
-    <section id="packages" className="w-full h-full">
+    <section id="packages" className="w-full h-full bg-white text-black">
       <div className="container mx-auto pb-10 px-4 md:px-8">
         <h1 className="section-header py-4">Packages</h1>
         <div className="w-full flex flex-col items-center">

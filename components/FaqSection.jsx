@@ -14,7 +14,7 @@ import { useState } from "react";
 const FaqSection = () => {
   const [full, setFull] = useState(false);
   return (
-    <div className="px-4">
+    <div className="px-4 ">
       <h2 className="text-xl md:text-2xl font-bold">
         Frequently Asked Questions (FAQs)
       </h2>

@@ -23,7 +23,7 @@ export default function Home() {
       <WhyUs />
       <PackagesSection id="packages" />
       <IncludedInPackage />
-      <div className="container mx-auto py-10 grid md:grid-cols-[500px_1fr]">
+      <div className="container mx-auto py-10 grid md:grid-cols-[500px_1fr] bg-white text-black">
         <FaqSection />
         <Newsletter />
       </div>
