@@ -36,7 +36,7 @@ const CtaForm = () => {
     <div>
       <form
         onSubmit={handleSubmit}
-        className="sm:flex p-4 gap-4 justify-between rounded bg-white/85 dark:bg-slate-900/85 backdrop-blur"
+        className="sm:flex p-4 gap-4 justify-between rounded text-black bg-white/85 dark:bg-slate-900/85 backdrop-blur"
       >
         <Input
           type="text"
